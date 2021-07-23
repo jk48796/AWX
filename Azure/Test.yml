@@ -1,6 +1,6 @@
 ---
 - name: Test the inventory script
-#  hosts: azure
+  hosts: {{ hosts }}
   connection: local
   gather_facts: no
   tasks:
