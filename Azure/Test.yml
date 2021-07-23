@@ -1,6 +1,6 @@
 ---
 - name: Test the inventory script
-  hosts: {{ hosts }}
+  hosts: all
   connection: local
   gather_facts: no
   tasks:
